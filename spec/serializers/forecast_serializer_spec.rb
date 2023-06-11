@@ -1,6 +1,12 @@
 require 'rails_helper'
 
 RSpec.describe ForecastSerializer do
+  before(:each) do
+    stub_request(:get, "http://api.weatherapi.com/v1/forecast.json?days=5&key=#{ENV['WEATHER_API_KEY']}&q=39.10713,-84.50413").
+     to_return(status: 200, body: File.read('spec/fixtures/cincinatti_forecast.json'), headers: {})
+    stub_request(:get, "https://www.mapquestapi.com/geocoding/v1/address?key=#{ENV['MAPQUEST_API_KEY']}&location=Cincinatti,%20OH").
+     to_return(status: 200, body: File.read('spec/fixtures/cincinatti_latlon.json'), headers: {})
+  end
   describe 'instance methods' do
     it 'properly serializes forecast data' do
       serialized = ForecastSerializer.new(ForecastService.get_forecast('Cincinatti, OH')).serialize_forecast

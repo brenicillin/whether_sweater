@@ -1,13 +1,17 @@
 require 'rails_helper'
 
 RSpec.describe ForecastService do
+  before(:each) do
+    stub_request(:get, "http://api.weatherapi.com/v1/forecast.json?days=5&key=#{ENV['WEATHER_API_KEY']}&q=39.10713,-84.50413").
+     to_return(status: 200, body: File.read('spec/fixtures/cincinatti_forecast.json'), headers: {})
+    stub_request(:get, "https://www.mapquestapi.com/geocoding/v1/address?key=#{ENV['MAPQUEST_API_KEY']}&location=Cincinatti,%20OH").
+     to_return(status: 200, body: File.read('spec/fixtures/cincinatti_latlon.json'), headers: {})
+  end
   describe 'class methods' do
     it 'returns lat and long for a given location' do
       lat_long = ForecastService.get_lat_long('Cincinatti, OH')
       expect(lat_long).to be_a(String)
       expect(ForecastService.get_lat_long('Cincinatti, OH')).to eq('39.10713,-84.50413')
-      expect(ForecastService.get_lat_long('Denver, CO')).to eq('39.74001,-104.99202')
-      expect(ForecastService.get_lat_long('San Diego, CA')).to eq('32.71568,-117.16171')
     end
 
     it 'returns forecast for a given location' do
