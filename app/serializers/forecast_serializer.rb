@@ -15,7 +15,7 @@ class ForecastSerializer
             feels_like: @data[:current][:feelslike_f],
             humidity: @data[:current][:humidity],
             uvi: @data[:current][:uv],
-            visbility: @data[:current][:vis_miles],
+            visibility: @data[:current][:vis_miles],
             condition: @data[:current][:condition][:text],
             icon: @data[:current][:condition][:icon]
             },
