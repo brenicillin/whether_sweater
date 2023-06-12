@@ -5,7 +5,7 @@ RSpec.describe UsersSerializer do
     it 'serializes a user' do
       @user = User.create!(email: "bob@bob.com", password: "password", password_confirmation: "password")
 
-      response = UsersSerializer.creation(@user)
+      response = UsersSerializer.serialize(@user)
 
       expect(response).to be_a(Hash)
       expect(response[:data]).to be_a(Hash)
