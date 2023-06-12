@@ -1,4 +1,4 @@
-class UserSerializer 
+class UsersSerializer 
   def self.creation(user)
     {
       data: {
