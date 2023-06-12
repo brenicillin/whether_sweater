@@ -1,5 +1,5 @@
 class UsersSerializer 
-  def self.creation(user)
+  def self.serialize(user)
     {
       data: {
         type: "users",
