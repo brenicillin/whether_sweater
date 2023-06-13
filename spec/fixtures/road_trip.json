@@ -1,0 +1,329 @@
+{
+  "route": {
+      "sessionId": "AIMA5wcAAJ4AAAARAAAAKwAAAJ8AAAB42mOYz8DAyMTAwMCekVqUapWcK8ppLA3kMiiYbN_BYXUyzHRTkVMMiN4MpBmwAJjGdef7wBqfiewWZDK9P9v0_2bTaBjNgAPIz1baeA1IN3iwcATxCjAoMDA4gMQbQFSDAgMXBxsAVCggncrMnKA:car",
+      "realTime": 6451,
+      "distance": 113.6227,
+      "time": 5915,
+      "formattedTime": "01:38:35",
+      "hasHighway": true,
+      "hasTollRoad": false,
+      "hasBridge": true,
+      "hasSeasonalClosure": false,
+      "hasTunnel": false,
+      "hasFerry": false,
+      "hasUnpaved": false,
+      "hasTimedRestriction": false,
+      "hasCountryCross": false,
+      "legs": [
+          {
+              "index": 0,
+              "hasTollRoad": false,
+              "hasHighway": true,
+              "hasBridge": true,
+              "hasUnpaved": false,
+              "hasTunnel": false,
+              "hasSeasonalClosure": false,
+              "hasFerry": false,
+              "hasCountryCross": false,
+              "hasTimedRestriction": false,
+              "distance": 113.6227,
+              "time": 6451,
+              "formattedTime": "01:47:31",
+              "origIndex": 0,
+              "origNarrative": "",
+              "destIndex": 0,
+              "destNarrative": "",
+              "maneuvers": [
+                  {
+                      "index": 0,
+                      "distance": 0.0193,
+                      "narrative": "Head toward Cherokee St on W Colfax Ave (I-70-BL). Go for 102 ft.",
+                      "time": 13,
+                      "direction": 8,
+                      "directionName": "East",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:13",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.74001,
+                          "lng": -104.99202
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-70-BL",
+                          "W Colfax Ave"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=aehir1YfmKpkXvxvBDYihaTUzEwkuBds&size=225,160&locations=39.74001,-104.99202|marker-1||39.74001,-104.99166|marker-2||&center=39.74001,-104.99184&defaultMarker=none&zoom=16&session=AIMA5wcAAJ4AAAARAAAAKwAAAJ8AAAB42mOYz8DAyMTAwMCekVqUapWcK8ppLA3kMiiYbN_BYXUyzHRTkVMMiN4MpBmwAJjGdef7wBqfiewWZDK9P9v0_2bTaBjNgAPIz1baeA1IN3iwcATxCjAoMDA4gMQbQFSDAgMXBxsAVCggncrMnKA:car"
+                  },
+                  {
+                      "index": 1,
+                      "distance": 0.9861,
+                      "narrative": "Make a U-Turn at Cherokee St onto W Colfax Ave (I-70-BL). Go for 1.0 mi.",
+                      "time": 245,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:04:05",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.74001,
+                          "lng": -104.99166
+                      },
+                      "turnType": 9,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-70-BL",
+                          "W Colfax Ave"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=aehir1YfmKpkXvxvBDYihaTUzEwkuBds&size=225,160&locations=39.74001,-104.99166|marker-2||39.740360000000024,-105.00995999999999|marker-3||&center=39.74018500000001,-105.00081&defaultMarker=none&zoom=13&session=AIMA5wcAAJ4AAAARAAAAKwAAAJ8AAAB42mOYz8DAyMTAwMCekVqUapWcK8ppLA3kMiiYbN_BYXUyzHRTkVMMiN4MpBmwAJjGdef7wBqfiewWZDK9P9v0_2bTaBjNgAPIz1baeA1IN3iwcATxCjAoMDA4gMQbQFSDAgMXBxsAVCggncrMnKA:car"
+                  },
+                  {
+                      "index": 2,
+                      "distance": 111.8965,
+                      "narrative": "Take ramp onto I-25 S (N Valley Hwy) toward Colo Spgs. Go for 112 mi.",
+                      "time": 6053,
+                      "direction": 4,
+                      "directionName": "South",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "01:40:53",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.740360000000024,
+                          "lng": -105.00995999999999
+                      },
+                      "turnType": 12,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-25",
+                          "N Valley Hwy"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=aehir1YfmKpkXvxvBDYihaTUzEwkuBds&size=225,160&locations=39.740360000000024,-105.00995999999999|marker-3||38.27064000000032,-104.60523999999978|marker-4||&center=39.00550000000017,-104.8075999999999&defaultMarker=none&zoom=6&session=AIMA5wcAAJ4AAAARAAAAKwAAAJ8AAAB42mOYz8DAyMTAwMCekVqUapWcK8ppLA3kMiiYbN_BYXUyzHRTkVMMiN4MpBmwAJjGdef7wBqfiewWZDK9P9v0_2bTaBjNgAPIz1baeA1IN3iwcATxCjAoMDA4gMQbQFSDAgMXBxsAVCggncrMnKA:car"
+                  },
+                  {
+                      "index": 3,
+                      "distance": 0.1908,
+                      "narrative": "Take exit 98B toward City Center Drive. Go for 0.2 mi.",
+                      "time": 26,
+                      "direction": 4,
+                      "directionName": "South",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:26",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 38.27064000000032,
+                          "lng": -104.60523999999978
+                      },
+                      "turnType": 14,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=aehir1YfmKpkXvxvBDYihaTUzEwkuBds&size=225,160&locations=38.27064000000032,-104.60523999999978|marker-4||38.267930000000305,-104.6056199999998|marker-5||&center=38.26928500000031,-104.60542999999979&defaultMarker=none&zoom=15&session=AIMA5wcAAJ4AAAARAAAAKwAAAJ8AAAB42mOYz8DAyMTAwMCekVqUapWcK8ppLA3kMiiYbN_BYXUyzHRTkVMMiN4MpBmwAJjGdef7wBqfiewWZDK9P9v0_2bTaBjNgAPIz1baeA1IN3iwcATxCjAoMDA4gMQbQFSDAgMXBxsAVCggncrMnKA:car"
+                  },
+                  {
+                      "index": 4,
+                      "distance": 0.1578,
+                      "narrative": "Turn right onto E 1st St. Go for 0.2 mi.",
+                      "time": 47,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:47",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 38.267930000000305,
+                          "lng": -104.6056199999998
+                      },
+                      "turnType": 2,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "E 1st St",
+                          "W City Center Dr"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=aehir1YfmKpkXvxvBDYihaTUzEwkuBds&size=225,160&locations=38.267930000000305,-104.6056199999998|marker-5||38.267900000000296,-104.6085199999998|marker-6||&center=38.2679150000003,-104.6070699999998&defaultMarker=none&zoom=15&session=AIMA5wcAAJ4AAAARAAAAKwAAAJ8AAAB42mOYz8DAyMTAwMCekVqUapWcK8ppLA3kMiiYbN_BYXUyzHRTkVMMiN4MpBmwAJjGdef7wBqfiewWZDK9P9v0_2bTaBjNgAPIz1baeA1IN3iwcATxCjAoMDA4gMQbQFSDAgMXBxsAVCggncrMnKA:car"
+                  },
+                  {
+                      "index": 5,
+                      "distance": 0.2113,
+                      "narrative": "Turn left onto Central Main St. Go for 0.2 mi.",
+                      "time": 41,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:41",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 38.267900000000296,
+                          "lng": -104.6085199999998
+                      },
+                      "turnType": 6,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "Central Main St"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=aehir1YfmKpkXvxvBDYihaTUzEwkuBds&size=225,160&locations=38.267900000000296,-104.6085199999998|marker-6||38.2654200000003,-104.61045999999983|marker-7||&center=38.2666600000003,-104.60948999999982&defaultMarker=none&zoom=15&session=AIMA5wcAAJ4AAAARAAAAKwAAAJ8AAAB42mOYz8DAyMTAwMCekVqUapWcK8ppLA3kMiiYbN_BYXUyzHRTkVMMiN4MpBmwAJjGdef7wBqfiewWZDK9P9v0_2bTaBjNgAPIz1baeA1IN3iwcATxCjAoMDA4gMQbQFSDAgMXBxsAVCggncrMnKA:car"
+                  },
+                  {
+                      "index": 6,
+                      "distance": 0.1609,
+                      "narrative": "Continue on S Main St. Go for 0.2 mi.",
+                      "time": 26,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:26",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 38.2654200000003,
+                          "lng": -104.61045999999983
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "S Main St"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=aehir1YfmKpkXvxvBDYihaTUzEwkuBds&size=225,160&locations=38.2654200000003,-104.61045999999983|marker-7||38.26375000000029,-104.61251999999986|marker-8||&center=38.264585000000295,-104.61148999999985&defaultMarker=none&zoom=15&session=AIMA5wcAAJ4AAAARAAAAKwAAAJ8AAAB42mOYz8DAyMTAwMCekVqUapWcK8ppLA3kMiiYbN_BYXUyzHRTkVMMiN4MpBmwAJjGdef7wBqfiewWZDK9P9v0_2bTaBjNgAPIz1baeA1IN3iwcATxCjAoMDA4gMQbQFSDAgMXBxsAVCggncrMnKA:car"
+                  },
+                  {
+                      "index": 7,
+                      "distance": 0,
+                      "narrative": "Arrive at S Main St.",
+                      "time": 0,
+                      "direction": 0,
+                      "directionName": "None",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:00",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 38.26375000000029,
+                          "lng": -104.61251999999986
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": []
+                  }
+              ]
+          }
+      ],
+      "options": {
+          "routeType": "FASTEST",
+          "narrativeType": "text",
+          "enhancedNarrative": false,
+          "walkingSpeed": -1,
+          "highwayEfficiency": 22,
+          "avoids": false,
+          "generalize": -1,
+          "shapeFormat": "raw",
+          "unit": "M",
+          "locale": "en_US",
+          "useTraffic": false,
+          "timeType": 0,
+          "dateType": 0,
+          "doReverseGeocode": true,
+          "manMaps": true,
+          "sideOfStreetDisplay": true
+      },
+      "boundingBox": {
+          "ul": {
+              "lat": 39.741960000000034,
+              "lng": -105.01581999999996
+          },
+          "lr": {
+              "lat": 38.26375000000029,
+              "lng": -104.60400999999978
+          }
+      },
+      "name": "I-25",
+      "maxRoutes": "",
+      "locations": [
+          {
+              "street": "",
+              "adminArea6": "",
+              "adminArea6Type": "Neighborhood",
+              "adminArea5": "Denver",
+              "adminArea5Type": "City",
+              "adminArea4": "Denver",
+              "adminArea4Type": "County",
+              "adminArea3": "CO",
+              "adminArea3Type": "State",
+              "adminArea1": "US",
+              "adminArea1Type": "Country",
+              "postalCode": "",
+              "geocodeQualityCode": "A5XAX",
+              "geocodeQuality": "CITY",
+              "dragPoint": false,
+              "sideOfStreet": "N",
+              "linkId": "0",
+              "unknownInput": "",
+              "type": "s",
+              "latLng": {
+                  "lat": 39.74001,
+                  "lng": -104.99202
+              },
+              "displayLatLng": {
+                  "lat": 39.74001,
+                  "lng": -104.99202
+              },
+              "mapUrl": ""
+          },
+          {
+              "street": "",
+              "adminArea6": "",
+              "adminArea6Type": "Neighborhood",
+              "adminArea5": "Pueblo",
+              "adminArea5Type": "City",
+              "adminArea4": "Pueblo",
+              "adminArea4Type": "County",
+              "adminArea3": "CO",
+              "adminArea3Type": "State",
+              "adminArea1": "US",
+              "adminArea1Type": "Country",
+              "postalCode": "",
+              "geocodeQualityCode": "A5XAX",
+              "geocodeQuality": "CITY",
+              "dragPoint": false,
+              "sideOfStreet": "N",
+              "linkId": "0",
+              "unknownInput": "",
+              "type": "s",
+              "latLng": {
+                  "lat": 38.26375,
+                  "lng": -104.61252
+              },
+              "displayLatLng": {
+                  "lat": 38.26375,
+                  "lng": -104.61252
+              },
+              "mapUrl": ""
+          }
+      ],
+      "locationSequence": [
+          0,
+          1
+      ]
+  },
+  "info": {
+      "statuscode": 0,
+      "copyright": {
+          "text": "© 2022 MapQuest, Inc.",
+          "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+          "imageAltText": "© 2022 MapQuest, Inc."
+      },
+      "messages": []
+  }
+}
