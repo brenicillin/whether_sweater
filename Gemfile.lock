@@ -82,6 +82,7 @@ GEM
       irb (>= 1.5.0)
       reline (>= 0.3.1)
     diff-lcs (1.5.0)
+    docile (1.4.0)
     erubi (1.12.0)
     faraday (2.7.6)
       faraday-net_http (>= 2.0, < 3.1)
@@ -186,6 +187,12 @@ GEM
     ruby2_keywords (0.0.5)
     shoulda-matchers (5.3.0)
       activesupport (>= 5.2.0)
+    simplecov (0.22.0)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.4)
     swagger-docs (0.2.9)
       activesupport (>= 3)
       rails (>= 3)
@@ -217,6 +224,7 @@ DEPENDENCIES
   rails (~> 7.0.5)
   rspec-rails (~> 5.0.0)
   shoulda-matchers
+  simplecov
   swagger-docs
   tzinfo-data
   webmock
