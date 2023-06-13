@@ -18,10 +18,8 @@ class RoadTripFacade
   def get_destination_forecast(destination, eta)
     weather = ForecastService.get_forecast(destination)
     data = weather[:forecast][:forecastday].first[:hour].find do |hour|
-      # require 'pry'; binding.pry
       Time.at(hour[:time_epoch]).hour == arrival_time(eta).hour
     end
     data
-    # require 'pry'; binding.pry
   end
 end

@@ -8,13 +8,11 @@ class RoadTrip
     @id = nil
     @start_city = origin
     @end_city = destination
-    # require 'pry'; binding.pry
     if travel_time == nil
       @travel_time = 'Impossible'
     else
       @travel_time = travel_time
     end
     @weather_at_eta = forecast
-    # require 'pry'; binding.pry
   end
 end
