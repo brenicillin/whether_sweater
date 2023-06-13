@@ -10,11 +10,11 @@ The app aggregates information from two different APIs, and presents a collectio
 It also provides systems to create an account with the front-end website, and a login function. These can be emulated in Postman by sending POST requests to the endpoints I will discuss later in this readme.
 
 ## Technical Details
-Whether Sweater is a Ruby on Rails API-only app. Some of the technologies used in development are as follows:
-<b>Ruby on Rails</b> - This app was built with Ruby on Rails
-<b>PostgreSQL</b> - This app uses a PostgreSQL database to store user login information.
-<b>RSpec</b> - All testing was done using RSpec, with a 100% coverage rate when checked with the SimpleCov gem.
-<b>WebMock</b> - So as to not run up API calls, in testing, web connections are disabled and are replaced with stubbed "fixture" files - these are essentialy just copies of an actual response, saved in a JSON file to be accessed by WebMock and served up as a "response" from the API call.
+Whether Sweater is a Ruby on Rails API-only app. Some of the technologies used in development are as follows:<br>
+<b>Ruby on Rails</b> - This app was built with Ruby on Rails<br>
+<b>PostgreSQL</b> - This app uses a PostgreSQL database to store user login information.<br>
+<b>RSpec</b> - All testing was done using RSpec, with a 100% coverage rate when checked with the SimpleCov gem.<br>
+<b>WebMock</b> - So as to not run up API calls, in testing, web connections are disabled and are replaced with stubbed "fixture" files - these are essentialy just copies of an actual response, saved in a JSON file to be accessed by WebMock and served up as a "response" from the API call.<br>
 
 ## Setting Up
 In order to run the Whether Sweater API locally, you will need to first clone and set up the repository. Once you've got it cloned, you'll run the following:
