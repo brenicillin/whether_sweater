@@ -118,4 +118,4 @@ create_table "users", force: :cascade do |t|
   ```
 # Contributors
 Brandon Johnson<br>
-[LinkedIn](http://www.linkedin.com/in/brandon-j-94b740b2)
+[LinkedIn](http://www.linkedin.com/in/brenicillin)
